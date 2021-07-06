@@ -73,7 +73,7 @@ inquirer
     fs.writeFile('README.md', 
         `# ${response.title}
 
-        ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+        ![APM](https://img.shields.io/apm/l/License)
 
         ## Description
         Hello, my name is ${response.name}. This application is called ${response.title}.
