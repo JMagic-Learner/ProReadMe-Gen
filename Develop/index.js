@@ -73,7 +73,7 @@ inquirer
     fs.writeFile('README.md', 
         `# ${response.title}
 
-        <img src="https://img.shields.io/static/v1?label=TEST&message=TESTMESSaGE&color=BLUE />
+        ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
         ## Description
         Hello, my name is ${response.name}. This application is called ${response.title}.
