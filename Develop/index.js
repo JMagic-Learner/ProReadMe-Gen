@@ -8,9 +8,9 @@ const inquirer = require("inquirer");
 const questions = [
     "Enter your name",
     "Enter your project title",
-    "What was your motivation?",
-    "What problem does this application resolve?",
-    "What is your process for building this application?",
+    "Enter Motivation?",
+    "What does this project do?",
+    "What is your coding process?",
     "Describe the steps needed to install this application",
     "Describe the usage of this application",
     "How do you test this application",
@@ -33,33 +33,33 @@ inquirer
         },
         {
             type: 'input',
-            message: questions[3],
+            message: questions[2],
             name: 'motivation',
         },
         {
             type: 'input',
-            message: questions[4],
+            message: questions[3],
             name: 'resolve',
         },
         {
             type: 'input',
-            message: questions[5],
+            message: questions[4],
             name: 'process',
         },
         {
             type: 'input',
-            message: questions[6],
+            message: questions[5],
             name: 'installation',
             
         },
         {
             type: 'input',
-            message: questions[7],
+            message: questions[6],
             name: 'usage',
         },
         {
             type: 'list',
-            message: questions[9],
+            message: questions[7],
             name: 'licenses',
             choices: [
                 'npm',
