@@ -72,7 +72,7 @@ inquirer
 
     fs.writeFile('README.md', 
         `# ${response.title}
-        ## Description
+        # Description
         Hello, my name is ${response.name}. This application is called ${response.title}.
       
        ${response.motivation}
@@ -86,37 +86,37 @@ inquirer
         - [Installation](#-Installation)
         - [Usage](#-Usage)
         - [Credits](#-Credits)
-        - [License](#license)
-        - [Contribution](#contribution)
-        - [Test](#test)
-        - [Question](#question)
-        ## Installation
+        - [License](#-license)
+        - [Contribution](#-contribution)
+        - [Test](#-test)
+        - [Question](#-question)
+        # Installation
 
        ${response.installation}
 
-        ## Usage
+        # Usage
 
         ${response.usage}
 
         Provide instructions and examples for use. Include screenshots as needed.
         To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
            
-        ## Credits
+        # Credits
         List your collaborators, if any, with links to their GitHub profiles.
         If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
         If you followed tutorials, include links to those here as well.
 
-        ## License
+        # License
 
         ${response.licenses}
         The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
         ---
         
-        ## Contribution
+        # Contribution
 
-        ## Tests
+        # Tests
 
-        ## Questions
+        # Questions
      `
      
             , (err) =>
