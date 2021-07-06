@@ -72,9 +72,6 @@ inquirer
 
     fs.writeFile('README.md', 
         `# ${response.title}
-
-        ![APM](https://img.shields.io/apm/l/License)
-
         ## Description
         Hello, my name is ${response.name}. This application is called ${response.title}.
       
@@ -86,10 +83,13 @@ inquirer
 
         ## Table of Contents 
         If your README is long, add a table of contents to make it easy for users to find what they need.
-        - [Installation]
-        - [Usage]
-        - [Credits]
-        - [License]
+        - [Installation](#installation)
+        - [Usage](#usage)
+        - [Credits](#credits)
+        - [License](#license)
+        - [Contribution](#contribution)
+        - [Test](#test)
+        - [Question](#question)
         ## Installation
 
        ${response.installation}
@@ -105,12 +105,18 @@ inquirer
         List your collaborators, if any, with links to their GitHub profiles.
         If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
         If you followed tutorials, include links to those here as well.
+
         ## License
 
         ${response.licenses}
         The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
         ---
-       
+        
+        ## Contribution
+
+        ## Tests
+
+        ## Questions
      `
      
             , (err) =>
@@ -122,54 +128,7 @@ inquirer
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {
-    function write() {
-    fs.writeFile('README.md', 
-        `# ${response.title}
-        ## Description
-        Hello, my name is ${response.name}. This application is called ${response.title}.
-      
-       ${response.motivation}
-
-       ${response.resolve}
-
-       ${response.process}
-
-        ## Table of Contents 
-        If your README is long, add a table of contents to make it easy for users to find what they need.
-        - [Installation]
-        - [Usage]
-        - [Credits]
-        - [License]
-        ## Installation
-
-       ${response.installation}
-
-        ## Usage
-
-        ${response.usage}
-
-        Provide instructions and examples for use. Include screenshots as needed.
-        To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-           
-        ## Credits
-        List your collaborators, if any, with links to their GitHub profiles.
-        If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-        If you followed tutorials, include links to those here as well.
-        ## License
-
-        ${response.licenses}
-        The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-        ---
-        
-        ## Contributing
-
-        ## Tests
-
-        ## Questions
-     `
-    )
-}
-
+ 
 // TODO: Create a function to initialize app
 function init() {}
 
