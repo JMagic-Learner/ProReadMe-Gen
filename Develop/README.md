@@ -1,29 +1,29 @@
-# TEST
+# G
         ## Description
-        Hello, my name is JASON. This application is called TEST.
+        Hello, my name is GG. This application is called G.
       
-       TEST
+       G
 
-       TEST
+       GG
 
-       TEST
+       G
 
         ## Table of Contents 
         If your README is long, add a table of contents to make it easy for users to find what they need.
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [Credits](#credits)
+        - [Installation](#-Installation)
+        - [Usage](#-Usage)
+        - [Credits](#-Credits)
         - [License](#license)
         - [Contribution](#contribution)
         - [Test](#test)
         - [Question](#question)
         ## Installation
 
-       TEST
+       G
 
         ## Usage
 
-        TEST
+        G
 
         Provide instructions and examples for use. Include screenshots as needed.
         To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -35,7 +35,7 @@
 
         ## License
 
-        https://img.shields.io/badge/<HRUK>-<TESTBADGE>-<GREEN>
+        npm
         The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
         ---
         
