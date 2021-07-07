@@ -15,7 +15,10 @@ const questions = [
     "Describe the usage of this application",
     "How do you test this application",
     "Who are the contributors to this project",
-    "What other licenses are you using in this application?"
+    "What other licenses are you using in this application?",
+    "What is your email",
+    "What is your gitHub User"
+    
 
 ];
 
@@ -58,15 +61,35 @@ inquirer
             name: 'usage',
         },
         {
-            type: 'list',
+            type: 'input',
             message: questions[7],
-            name: 'licenses',
+            name: 'contributor',
+        },
+        {
+            type: 'input',
+            message: questions[8],
+            name: 'testing',
+        },
+        {
+            type: 'list',
+            message: questions[9],
+            name: 'license',
             choices: [
                 'npm',
                 'https://img.shields.io/badge/<HRUK>-<TESTBADGE>-<GREEN>',
                 'jquery',
             ],
-        }
+        },
+        {
+            type: 'input',
+            message: questions[10],
+            name: 'email',
+        },
+        {
+            type: 'input',
+            message: questions[11],
+            name: 'GitHubUser',
+        },
     ])
     .then((response) => 
 
@@ -113,10 +136,17 @@ inquirer
         ---
         
         # Contribution
+        ${response.contributor}
 
         # Tests
+        ${response.testing}
 
         # Questions
+        Github Username: ${response.GitHubUser}
+        Github Profile: https://github.com/${response.GitHubUser}
+
+        If you have any questions, please contact me via email at the following email address;
+        ${response.email}
      `
      
             , (err) =>

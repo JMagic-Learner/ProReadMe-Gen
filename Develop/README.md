@@ -1,12 +1,12 @@
-# VEREX
+# ProReadGen
         # Description
-        Hello, my name is JASON. This application is called VEREX.
+        Hello, my name is Jason Ma. This application is called ProReadGen.
       
-       ADSHI HI
+       Trying to complete homework
 
-       ashadsssssssssssssssssssssssssss
+       Autogenerates a readme
 
-       AHSdjhsjk hdjkahdjklashdjkaghdjkagd;k a
+       step by step trial and error
 
         ## Table of Contents 
         If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -19,11 +19,11 @@
         - [Question](#-question)
         # Installation
 
-       ahdajshdjka hdka sgdjk agdk;agk;asgk;a
+       download GIT, and clone repo
 
         # Usage
 
-        ajdhasjkghd ajkldajkgdjkagdjkagdkaj
+        Run node index.js
 
         Provide instructions and examples for use. Include screenshots as needed.
         To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -35,13 +35,20 @@
 
         # License
 
-        https://img.shields.io/badge/<HRUK>-<TESTBADGE>-<GREEN>
+        undefined
         The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
         ---
         
         # Contribution
+        run node index.js
 
         # Tests
+        Jason Ma
 
         # Questions
+        Github Username: JMAGIC
+        Github Profile: https://github.com/JMAGIC
+
+        If you have any questions, please contact me via email at the following email address;
+        github
      
