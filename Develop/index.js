@@ -95,11 +95,11 @@ inquirer
     .then((response) => 
     
 
-    fs.writeFile('../AUTOGENERATE.md', 
+    fs.writeFile('README.md', 
 
         `
         # ${response.title}
-        [![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
+        [![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen/Develop)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
         
         # Description
         Hello, my name is ${response.name}. This application is called ${response.title}.
