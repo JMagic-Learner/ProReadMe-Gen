@@ -100,7 +100,7 @@ inquirer
 
 `
 ## ${response.title}
-${response.choices}
+${response.license}
         
 ## Description
         Hello, my name is ${response.name}. This application is called ${response.title}.
