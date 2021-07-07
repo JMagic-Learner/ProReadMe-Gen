@@ -1,32 +1,32 @@
 
-## TESTGIN
-[![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen/Develop)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
+## ProReadMe-Gen
+undefined
         
 ## Description
-        Hello, my name is TESTING. This application is called TESTGIN.
+        Hello, my name is Jason Ma. This application is called ProReadMe-Gen.
       
-       TESTING
+       I need to complete this homework assignment for class
 
-       TESTING
+       It autogenerates a Professional Readme 
 
-       TESTING
+       Step by Step trial and Error
 
 ## Table of Contents 
-        If your README is long, add a table of contents to make it easy for users to find what they need.
-        - [Installation](#-Installation)
-        - [Usage](#-Usage)
-        - [Credits](#-Credits)
-        - [License](#-license)
-        - [Contribution](#-contribution)
-        - [Test](#-test)
-        - [Question](#-question)
+If your README is long, add a table of contents to make it easy for users to find what they need.
+- [Installation](##-Installation)
+- [Usage](##-Usage)
+- [Credits](##-Credits)
+- [License](##-license)
+- [Contribution](##-contribution)
+- [Test](##-test)
+- [Question](##-question)
 
  ## Installation
 
-       TESTIN
+       I needed NPM, Coding etc
  ## Usage
 
-        TESING
+        To auogenerate a pro readme
 
         Provide instructions and examples for use. Include screenshots as needed.
         To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -43,15 +43,15 @@
         ---
         
 ## Contribution
-        TEXGIN
+        Multiple commits to GIT
 
 ## Tests
-        TEINGD
+        JASON MA
 
 ## Questions
-        Github Username: ITBENAPFIsd
-        Github Profile: https://github.com/ITBENAPFIsd
+        Github Username: JMagic-Learner
+        Github Profile: https://github.com/JMagic-Learner
 
         If you have any questions, please contact me via email at the following email address;
-        TESng
+        MAJAson93@gmail.com
      

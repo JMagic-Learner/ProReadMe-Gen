@@ -76,9 +76,9 @@ inquirer
             message: questions[9],
             name: 'license',
             choices: [
-                'npm',
+                '![NPM](https://img.shields.io/npm/l/inquirer)',
                 'https://img.shields.io/badge/<HRUK>-<TESTBADGE>-<GREEN>',
-                'jquery',
+                '![GitHub](https://img.shields.io/github/license/JMagic-Learner/ProReadMe-Gen)',
             ],
         },
         {
@@ -99,7 +99,7 @@ inquirer
 
 `
 ## ${response.title}
-[![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen/Develop)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
+${response.choices}
         
 ## Description
         Hello, my name is ${response.name}. This application is called ${response.title}.
@@ -111,14 +111,14 @@ inquirer
        ${response.process}
 
 ## Table of Contents 
-        If your README is long, add a table of contents to make it easy for users to find what they need.
-        - [Installation](#-Installation)
-        - [Usage](#-Usage)
-        - [Credits](#-Credits)
-        - [License](#-license)
-        - [Contribution](#-contribution)
-        - [Test](#-test)
-        - [Question](#-question)
+If your README is long, add a table of contents to make it easy for users to find what they need.
+- [Installation](##-Installation)
+- [Usage](##-Usage)
+- [Credits](##-Credits)
+- [License](##-license)
+- [Contribution](##-contribution)
+- [Test](##-test)
+- [Question](##-question)
 
  ## Installation
 
