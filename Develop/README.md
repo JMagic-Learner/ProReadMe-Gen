@@ -1,12 +1,15 @@
-# ProReadGen
+
+        # Vertex
+        ![](https://img.shields.io/badge/example-foo-blue)
+        
         # Description
-        Hello, my name is Jason Ma. This application is called ProReadGen.
+        Hello, my name is Jason. This application is called Vertex.
       
-       Trying to complete homework
+       TET
 
-       Autogenerates a readme
+       TEST
 
-       step by step trial and error
+       TEST
 
         ## Table of Contents 
         If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -19,11 +22,11 @@
         - [Question](#-question)
         # Installation
 
-       download GIT, and clone repo
+       TEST
 
         # Usage
 
-        Run node index.js
+        TEST
 
         Provide instructions and examples for use. Include screenshots as needed.
         To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -40,15 +43,15 @@
         ---
         
         # Contribution
-        run node index.js
+        TEST
 
         # Tests
-        Jason Ma
+        TEST
 
         # Questions
-        Github Username: JMAGIC
-        Github Profile: https://github.com/JMAGIC
+        Github Username: STEST
+        Github Profile: https://github.com/STEST
 
         If you have any questions, please contact me via email at the following email address;
-        github
+        TESt
      

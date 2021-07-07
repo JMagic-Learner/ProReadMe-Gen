@@ -22,6 +22,7 @@ const questions = [
 
 ];
 
+
 inquirer
     .prompt([
         {
@@ -92,9 +93,14 @@ inquirer
         },
     ])
     .then((response) => 
+    
 
     fs.writeFile('README.md', 
-        `# ${response.title}
+
+        `
+        # ${response.title}
+        ![](https://img.shields.io/badge/example-foo-blue)
+        
         # Description
         Hello, my name is ${response.name}. This application is called ${response.title}.
       
