@@ -95,7 +95,7 @@ inquirer
     .then((response) => 
     
 
-    fs.writeFile('README.md', 
+    fs.writeFile('../AUTOGENERATE.md', 
 
         `
         # ${response.title}
