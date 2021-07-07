@@ -71,17 +71,7 @@ inquirer
             message: questions[8],
             name: 'testing',
         },
-        {
-            type: 'list',
-            message: questions[9],
-            name: 'license',
-            choices: [
-                '![NPM](https://img.shields.io/npm/l/inquirer)',
-                'https://img.shields.io/badge/<HRUK>-<TESTBADGE>-<GREEN>',
-                '![GitHub](https://img.shields.io/github/license/JMagic-Learner/ProReadMe-Gen)',
-                '![APM](https://img.shields.io/apm/l/vim-mode)'
-            ],
-        },
+        
         {
             type: 'input',
             message: questions[10],
@@ -91,6 +81,17 @@ inquirer
             type: 'input',
             message: questions[11],
             name: 'GitHubUser',
+        },
+        {
+            type: 'list',
+            message: questions[9],
+            name: 'license',
+            choices: [
+                '![NPM](https://img.shields.io/npm/l/inquirer)',
+               
+                '![Hex.pm](https://img.shields.io/hexpm/l/plug)',
+                '![APM](https://img.shields.io/apm/l/vim-mode)'
+            ],
         },
     ])
     .then((response) => 
