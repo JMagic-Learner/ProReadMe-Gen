@@ -1,15 +1,15 @@
 
-        # TEST
-        [![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
+        # TESTVERSIOn
+        [![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen/Develop)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
         
         # Description
-        Hello, my name is TEST. This application is called TEST.
+        Hello, my name is Jason Ma. This application is called TESTVERSIOn.
       
-       TET
+       Hopefully this works
 
-       A T
+       Autogenerates a functional professional readMe
 
-       T
+       Step by step trial and error
 
         ## Table of Contents 
         If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -22,11 +22,11 @@
         - [Question](#-question)
         # Installation
 
-       AET
+       NPM INstall first
 
         # Usage
 
-         AT
+        Please use everything
 
         Provide instructions and examples for use. Include screenshots as needed.
         To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -43,15 +43,15 @@
         ---
         
         # Contribution
-        AT
+        YEAH
 
         # Tests
-        AT  AaGA fAf a
+        YEAH
 
         # Questions
-        Github Username: T
-        Github Profile: https://github.com/T
+        Github Username: YEAH
+        Github Profile: https://github.com/YEAH
 
         If you have any questions, please contact me via email at the following email address;
-        ATA
+        YEAH
      
