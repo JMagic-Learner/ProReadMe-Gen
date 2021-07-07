@@ -1,6 +1,6 @@
 
         # Vertex
-        ![](https://img.shields.io/badge/example-foo-blue)
+        ![NPM](https://img.shields.io/npm/l/inquirer)
         
         # Description
         Hello, my name is Jason. This application is called Vertex.
