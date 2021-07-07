@@ -1,11 +1,11 @@
 
-## TEST
-![GitHub](https://img.shields.io/github/license/JMagic-Learner/ProReadMe-Gen)
+## PROREADNME
+![NPM](https://img.shields.io/npm/l/inquirer)
         
 ## Description
-        Hello, my name is tEST. This application is called TEST.
+        Hello, my name is JASON. This application is called PROREADNME.
       
-       TETS
+       
 
        TEST
 
@@ -23,7 +23,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
  ## Installation
 
-       TETS
+       TEST
  ## Usage
 
         TEST
