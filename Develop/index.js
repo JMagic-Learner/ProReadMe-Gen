@@ -119,7 +119,8 @@ inquirer
         - [Contribution](#-contribution)
         - [Test](#-test)
         - [Question](#-question)
-        # Installation
+        
+        ## Installation
 
        ${response.installation}
 
