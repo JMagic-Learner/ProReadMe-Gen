@@ -99,7 +99,7 @@ inquirer
 
         `
         # ${response.title}
-        ![](https://img.shields.io/badge/example-foo-blue)
+        [![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
         
         # Description
         Hello, my name is ${response.name}. This application is called ${response.title}.

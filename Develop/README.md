@@ -1,15 +1,15 @@
 
-        # Vertex
-        ![NPM](https://img.shields.io/npm/l/inquirer)
+        # ReadMeGenerator
+        [![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
         
         # Description
-        Hello, my name is Jason. This application is called Vertex.
+        Hello, my name is Jason. This application is called ReadMeGenerator.
       
-       TET
+       I need to complete this for homework dear god
 
-       TEST
+       Autogenerates a readME file
 
-       TEST
+       TEST BY TEST RANDOM, STEP BY STEP TORTURE
 
         ## Table of Contents 
         If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -22,11 +22,11 @@
         - [Question](#-question)
         # Installation
 
-       TEST
+       You needd to do alot of things
 
         # Usage
 
-        TEST
+        WHAT IS THE STEPS
 
         Provide instructions and examples for use. Include screenshots as needed.
         To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -49,9 +49,9 @@
         TEST
 
         # Questions
-        Github Username: STEST
-        Github Profile: https://github.com/STEST
+        Github Username: TEST
+        Github Profile: https://github.com/TEST
 
         If you have any questions, please contact me via email at the following email address;
-        TESt
+        TEST
      
