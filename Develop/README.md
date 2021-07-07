@@ -1,15 +1,15 @@
 
-## ProReadMe-Gen
+## tEST
 undefined
         
 ## Description
-        Hello, my name is Jason Ma. This application is called ProReadMe-Gen.
+        Hello, my name is jaosn. This application is called tEST.
       
-       I need to complete this homework assignment for class
+       TEST
 
-       It autogenerates a Professional Readme 
+       TETS
 
-       Step by Step trial and Error
+       TEST
 
 ## Table of Contents 
 If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -23,10 +23,10 @@ If your README is long, add a table of contents to make it easy for users to fin
 
  ## Installation
 
-       I needed NPM, Coding etc
+       TEST
  ## Usage
 
-        To auogenerate a pro readme
+        TEST
 
         Provide instructions and examples for use. Include screenshots as needed.
         To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -43,15 +43,15 @@ If your README is long, add a table of contents to make it easy for users to fin
         ---
         
 ## Contribution
-        Multiple commits to GIT
+        TEST
 
 ## Tests
-        JASON MA
+        TEST
 
 ## Questions
-        Github Username: JMagic-Learner
-        Github Profile: https://github.com/JMagic-Learner
+        Github Username: TEST
+        Github Profile: https://github.com/TEST
 
         If you have any questions, please contact me via email at the following email address;
-        MAJAson93@gmail.com
+        TEST
      

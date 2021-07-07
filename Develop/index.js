@@ -79,6 +79,7 @@ inquirer
                 '![NPM](https://img.shields.io/npm/l/inquirer)',
                 'https://img.shields.io/badge/<HRUK>-<TESTBADGE>-<GREEN>',
                 '![GitHub](https://img.shields.io/github/license/JMagic-Learner/ProReadMe-Gen)',
+                '![APM](https://img.shields.io/apm/l/vim-mode)'
             ],
         },
         {
