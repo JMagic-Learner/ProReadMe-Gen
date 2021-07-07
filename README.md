@@ -1,5 +1,5 @@
 # 09 Node.js Homework: Professional README Generator
-[![GitHub issues](https://img.shields.io/github/issues/JMagic-Learner/ProReadMe-Gen)](https://github.com/JMagic-Learner/ProReadMe-Gen/issues)
+
 
 ## Your Task
 
