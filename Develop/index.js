@@ -8,22 +8,24 @@ const inquirer = require("inquirer");
 const questions = [
     "Enter your name",
     "Enter your project title",
-    "Enter Motivation?",
+    "Enter Motivation",
     "What does this project do?",
     "What is your coding process?",
-    "Describe the steps needed to install this application",
+    "Describe how to install this application?",
     "Describe the usage of this application",
-    "How do you test this application",
-    "Who are the contributors to this project",
-    "What other licenses are you using in this application?",
-    "What is your email",
-    "What is your gitHub User"
+    "How to test?",
+    "List contributors",
+    "Select Licenses",
+    "Type your email",
+    "Type your Github Username"
     
 
 ];
 
-
+function startPrompt() {
 inquirer
+
+
     .prompt([
         {
             type: 'input',
@@ -61,6 +63,7 @@ inquirer
             message: questions[6],
             name: 'usage',
         },
+       
         {
             type: 'input',
             message: questions[7],
@@ -94,81 +97,88 @@ inquirer
             ],
         },
     ])
-    .then((response) => 
-    
+
+
+.then((response) => {
+ // TODO: Create a function to write README file
+//function writeToFile(fileName, data) {   
 
     fs.writeFile('README.md', 
 
-`
+    `
 ## ${response.title}
-${response.license}
-        
+    ${response.license}
+    [LIVE DEPLOY](https://${response.GitHubUser}.github.io/${response.title})
 ## Description
-        Hello, my name is ${response.name}. This application is called ${response.title}.
-      
-       ${response.motivation}
-
-       ${response.resolve}
-
-       ${response.process}
-
-## Table of Contents 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-- [Installation](##-Installation)
-- [Usage](##-Usage)
-- [Credits](##-Credits)
-- [License](##-license)
-- [Contribution](##-contribution)
-- [Test](##-test)
-- [Question](##-question)
-
- ## Installation
-
-       ${response.installation}
- ## Usage
-
-        ${response.usage}
-
-        Provide instructions and examples for use. Include screenshots as needed.
-        To add a screenshot, create an  folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+            Hello, my name is ${response.name}. This application is called ${response.title}.
+    
+    
+    Personal Motivation:
+    ${response.motivation}
+    
+    Project Goal / Purpose
+    ${response.resolve}
+    
+    Coding Process
+    ${response.process}
+    
+ ## Table of Contents 
+    If your README is long, add a table of contents to make it easy for users to find what they need.
+    - [Installation](##-Installation)
+    - [Usage](##-Usage)
+    - [Credits](##-Credits)
+    - [License](##-license)
+    - [Contribution](##-contribution)
+    - [Test](##-test)
+    - [Question](##-question)
+    
+## Installation
+    
+    ${response.installation}
            
- ## Credits
-        List your collaborators, if any, with links to their GitHub profiles.
-        If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-        If you followed tutorials, include links to those here as well.
+## Usage
+    
+    ${response.usage}
+    
+               
+## Credits
+    ${response.contributor}
 
 ## License
-
-        ${response.licenses}
-        The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-        ---
-        
-## Contribution
-        ${response.contributor}
-
-## Tests
-        ${response.testing}
-
-## Questions
-        Github Username: ${response.GitHubUser}
-        Github Profile: https://github.com/${response.GitHubUser}
-
-        If you have any questions, please contact me via email at the following email address;
-        ${response.email}
-     `
-     
-            , (err) =>
-                err ? console.error(err) : console.log('Success!'))
-
-    );
-
     
+     ${response.licenses}
+            
+            
+## Contribution
+    ${response.contributor}
+    
+## Tests
+    ${response.testing}
+    
+## Questions
+    Github Username: ${response.GitHubUser}
+    Github Profile: [${response.GitHubUser}](https://github.com/${response.GitHubUser})
+    
+    If you have any questions, please contact me via email at the following email address;
+    ${response.email}
+         `
+         
+      
 
-// TODO: Create a function to write README file
-//function writeToFile(fileName, data) {
+    , (err) =>
+        err ? console.error(err) : console.log('Success!'))  
+});
+
+}
+
+
+
+
  
 // TODO: Create a function to initialize app
 function init() {}
+startPrompt();
+
 
 // Function call to initialize app
 init();
