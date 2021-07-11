@@ -83,12 +83,12 @@ inquirer
        
         {
             type: 'input',
-            message: questions[6],
+            message: questions[7],
             name: 'contributor',
         },
         {
             type: 'input',
-            message: questions[7],
+            message: questions[6],
             name: 'testing',
         },
         

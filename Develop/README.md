@@ -2,7 +2,7 @@
 ## PROREADME-GEN
 ![APM](https://img.shields.io/apm/l/vim-mode)
 
-[LIVE DEPLOY](https://JMagic-Learner.github.io/PROREADME-GEN)
+[LIVE DEPLOY](https://JMAgic-Learner.github.io/PROREADME-GEN)
 ## Description
 Hello, my name is Jason Ma. This application is called PROREADME-GEN.
               
@@ -14,7 +14,7 @@ Project Goal / Purpose
 undefined
           
 Coding Process
-Step by step implementation of code structure. We then take these 'drafts" to test via node index.js.
+STEP BY STEP implementation, and running that code through node js to test if prompts are reading
               
 ## Table of Contents 
 If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -30,16 +30,16 @@ If your README is long, add a table of contents to make it easy for users to fin
               
           
 undefined
-Download Node.JS,Run NPM i inquirer,clone repo,run node index.js
+Download Node JS,Clone this REPO into your computer,Run NPM I inquirer,Run node index.js inside your command terminal
              
                      
 ## Usage
               
-Generating professional readmes via this application
+Use this to autogenerate a professional read me
               
                          
 ## Credits
-TEST
+JASON MA
           
 ## License
             
@@ -48,15 +48,15 @@ License Utilized:
                       
                       
 ## Contribution
-TEST
+JASON MA
               
 ## Tests
-Jason Ma
+TEST is implented later after Unit 10 of bootcamp
               
 ## Questions
-Github Username: JMagic-Learner
+Github Username: JMAgic-Learner
 Github Profile: 
-[JMagic-Learner](https://github.com/JMagic-Learner)
+[JMAgic-Learner](https://github.com/JMAgic-Learner)
               
 If you have any questions, please contact me via email at the following email address;
 MaJason93@gmail.com
