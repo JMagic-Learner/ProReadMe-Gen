@@ -147,12 +147,8 @@ ${response.license}
 ## Description
 Hello, my name is ${response.name}. This application is called ${response.title}.
               
-              
- Personal Motivation:
-${response.motivation}
-              
-Project Goal / Purpose
-${response.resolve}
+Description:
+${response.description}             
           
 Coding Process
 ${response.process}
@@ -169,18 +165,14 @@ If your README is long, add a table of contents to make it easy for users to fin
               
 ## Installation
               
-          
-${response.step}
+
 ${results}
              
                      
 ## Usage
               
 ${response.usage}
-              
-                         
-## Credits
-${response.contributor}
+                                      
           
 ## License
             

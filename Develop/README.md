@@ -1,20 +1,16 @@
 
-## PROREADME-GEN
-![APM](https://img.shields.io/apm/l/vim-mode)
+## VIDEO - DEMONSTRATION
+![Hex.pm](https://img.shields.io/hexpm/l/plug)
 
-[LIVE DEPLOY](https://JMAgic-Learner.github.io/PROREADME-GEN)
+[LIVE DEPLOY](https://JMagic-Learner.github.io/VIDEO - DEMONSTRATION)
 ## Description
-Hello, my name is Jason Ma. This application is called PROREADME-GEN.
+Hello, my name is Jason Ma. This application is called VIDEO - DEMONSTRATION.
               
-              
- Personal Motivation:
-undefined
-              
-Project Goal / Purpose
-undefined
+Description:
+This is a demonstration for coding purposes. This shows how the application should run             
           
 Coding Process
-STEP BY STEP implementation, and running that code through node js to test if prompts are reading
+Step by Step implementation of code is then run through node index.js.
               
 ## Table of Contents 
 If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -28,35 +24,31 @@ If your README is long, add a table of contents to make it easy for users to fin
               
 ## Installation
               
-          
-undefined
-Download Node JS,Clone this REPO into your computer,Run NPM I inquirer,Run node index.js inside your command terminal
+
+Install node js,clone this repo,Run npm i inquirer,run node index.js
              
                      
 ## Usage
               
-Use this to autogenerate a professional read me
-              
-                         
-## Credits
-JASON MA
+Generate a professional readme on the fly. 
+                                      
           
 ## License
             
 License Utilized: 
-![APM](https://img.shields.io/apm/l/vim-mode)
+![Hex.pm](https://img.shields.io/hexpm/l/plug)
                       
                       
 ## Contribution
-JASON MA
+Jason Ma
               
 ## Tests
-TEST is implented later after Unit 10 of bootcamp
+Testing is implemented later.
               
 ## Questions
-Github Username: JMAgic-Learner
+Github Username: JMagic-Learner
 Github Profile: 
-[JMAgic-Learner](https://github.com/JMAgic-Learner)
+[JMagic-Learner](https://github.com/JMagic-Learner)
               
 If you have any questions, please contact me via email at the following email address;
 MaJason93@gmail.com
