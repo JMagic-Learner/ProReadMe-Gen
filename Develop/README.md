@@ -1,62 +1,61 @@
 
-          ## Video_Demonstration
-              ![Hex.pm](https://img.shields.io/hexpm/l/plug)
-          [LIVE DEPLOY](https://JMagic-Learner.github.io/Video_Demonstration)
-          ## Description
-                      Hello, my name is Jason Ma. This application is called Video_Demonstration.
+## README_DEMO
+              ![APM](https://img.shields.io/apm/l/vim-mode)
+[LIVE DEPLOY](https://JMagic-Learner.github.io/README_DEMO)
+## Description
+Hello, my name is Jason. This application is called README_DEMO.
               
               
-              Personal Motivation:
-              undefined
+ Personal Motivation:
+undefined
               
-              Project Goal / Purpose
-              undefined
+Project Goal / Purpose
+undefined
+          
+Coding Process
+Coding process is to use step by step implentation and repeated usage of node index.js to show that prompts are following through
               
-              Coding Process
-              Step by step implementation. We draft a plan of action, and then code a rough framework on how to implement said solution. We then use node index.js commands to test if the function runs.
+## Table of Contents 
+If your README is long, add a table of contents to make it easy for users to find what they need.
+- [Installation](##-Installation)
+- [Usage](##-Usage)
+- [Credits](##-Credits)
+- [License](##-license)
+- [Contribution](##-contribution)
+- [Test](##-test)
+- [Question](##-question)
               
-           ## Table of Contents 
-              If your README is long, add a table of contents to make it easy for users to find what they need.
-              - [Installation](##-Installation)
-              - [Usage](##-Usage)
-              - [Credits](##-Credits)
-              - [License](##-license)
-              - [Contribution](##-contribution)
-              - [Test](##-test)
-              - [Question](##-question)
-              
-          ## Installation
+## Installation
               
           
-              undefined
-              Step 1: Clone Respository into your computer,Step 2: Run npm i inquirer,Step 3: Run node index.js in command terminal,Step 4: Enter and progress through prompts,Step 5: Take Readme and see how it works online.
+undefined
+Step 1: Install Node,Step 2: Clone REPO,Step 3: npm i inquirer,Step 4: node index.js
              
                      
-          ## Usage
+## Usage
               
-              Video_Demonstration is used to show individuals how PROREADME functions
+DEMONSTRATES AUTO GENerATION OF README
               
                          
-          ## Credits
-              Leave this blank
+## Credits
+TEST
           
-          ## License
+## License
             
-            License Utilized: 
-               ![Hex.pm](https://img.shields.io/hexpm/l/plug)
+License Utilized: 
+![APM](https://img.shields.io/apm/l/vim-mode)
                       
                       
-          ## Contribution
-              Leave this blank
+## Contribution
+TEST
               
-          ## Tests
-              JASON MA,  UW BOOTCAMP
+## Tests
+JASON
               
-          ## Questions
-              Github Username: JMagic-Learner
-              Github Profile: 
-          [JMagic-Learner](https://github.com/JMagic-Learner)
+## Questions
+Github Username: JMagic-Learner
+Github Profile: 
+[JMagic-Learner](https://github.com/JMagic-Learner)
               
-              If you have any questions, please contact me via email at the following email address;
-              MaJason93@gmail.com
-                   
+If you have any questions, please contact me via email at the following email address;
+MaJason93@gmail.com

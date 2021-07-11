@@ -140,67 +140,67 @@ function writeToFile(response, results) {
         fs.writeFile('README.md', 
           
               `
-          ## ${response.title}
+## ${response.title}
               ${response.license}
-          [LIVE DEPLOY](https://${response.GitHubUser}.github.io/${response.title})
-          ## Description
-                      Hello, my name is ${response.name}. This application is called ${response.title}.
+[LIVE DEPLOY](https://${response.GitHubUser}.github.io/${response.title})
+## Description
+Hello, my name is ${response.name}. This application is called ${response.title}.
               
               
-              Personal Motivation:
-              ${response.motivation}
+ Personal Motivation:
+${response.motivation}
               
-              Project Goal / Purpose
-              ${response.resolve}
+Project Goal / Purpose
+${response.resolve}
+          
+Coding Process
+${response.process}
               
-              Coding Process
-              ${response.process}
+## Table of Contents 
+If your README is long, add a table of contents to make it easy for users to find what they need.
+- [Installation](##-Installation)
+- [Usage](##-Usage)
+- [Credits](##-Credits)
+- [License](##-license)
+- [Contribution](##-contribution)
+- [Test](##-test)
+- [Question](##-question)
               
-           ## Table of Contents 
-              If your README is long, add a table of contents to make it easy for users to find what they need.
-              - [Installation](##-Installation)
-              - [Usage](##-Usage)
-              - [Credits](##-Credits)
-              - [License](##-license)
-              - [Contribution](##-contribution)
-              - [Test](##-test)
-              - [Question](##-question)
-              
-          ## Installation
+## Installation
               
           
-              ${response.step}
-              ${results}
+${response.step}
+${results}
              
                      
-          ## Usage
+## Usage
               
-              ${response.usage}
+${response.usage}
               
                          
-          ## Credits
-              ${response.contributor}
+## Credits
+${response.contributor}
           
-          ## License
+## License
             
-            License Utilized: 
-               ${response.license}
+License Utilized: 
+${response.license}
                       
                       
-          ## Contribution
-              ${response.contributor}
+## Contribution
+${response.contributor}
               
-          ## Tests
-              ${response.testing}
+## Tests
+${response.testing}
               
-          ## Questions
-              Github Username: ${response.GitHubUser}
-              Github Profile: 
-          [${response.GitHubUser}](https://github.com/${response.GitHubUser})
+## Questions
+Github Username: ${response.GitHubUser}
+Github Profile: 
+[${response.GitHubUser}](https://github.com/${response.GitHubUser})
               
-              If you have any questions, please contact me via email at the following email address;
-              ${response.email}
-                   `
+If you have any questions, please contact me via email at the following email address;
+${response.email}
+`
                    
                 
           
