@@ -137,7 +137,7 @@ repeatPrompt(response)
 
 function writeToFile(response, results) {
    
-        fs.writeFile('README.md', 
+        fs.writeFile('README-HWDescription.md', 
           
               `
 ## ${response.title}
@@ -164,6 +164,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Question](##-question)
               
 ## Installation
+
+Link to video demonstration how this application works:
+https://drive.google.com/file/d/13Wi25qLBlX8RQuU2vu-ZwW8qSMlAgd3g/view
               
 
 ${results}
