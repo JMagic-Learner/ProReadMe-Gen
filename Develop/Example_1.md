@@ -1,7 +1,7 @@
 
 ## ProfessionalPortfolio
     ![NPM](https://img.shields.io/npm/l/inquirer)
-    [LIVE DEPLOY](https://JMagic-Learner.github.io/ProfessionalPortfolio)
+[LIVE DEPLOY](https://JMagic-Learner.github.io/ProfessionalPortfolio)
 ## Description
             Hello, my name is Jason Ma. This application is called ProfessionalPortfolio.
     
@@ -50,7 +50,8 @@
     
 ## Questions
     Github Username: JMagic-Learner
-    Github Profile: [JMagic-Learner](https://github.com/JMagic-Learner)
+    Github Profile: 
+[JMagic-Learner](https://github.com/JMagic-Learner)
     
     If you have any questions, please contact me via email at the following email address;
     MAJASON93@gmail.com
