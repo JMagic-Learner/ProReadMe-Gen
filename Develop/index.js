@@ -141,7 +141,8 @@ function writeToFile(response, results) {
           
               `
 ## ${response.title}
-              ${response.license}
+${response.license}
+
 [LIVE DEPLOY](https://${response.GitHubUser}.github.io/${response.title})
 ## Description
 Hello, my name is ${response.name}. This application is called ${response.title}.
