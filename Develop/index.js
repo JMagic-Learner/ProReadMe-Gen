@@ -9,10 +9,9 @@ let count = 0;
 const questions = [
     "Enter your name",
     "Enter your project title",
-    "Enter Motivation",
-    "What does this project do?",
+    "Enter project description",
     "What is your coding process?",
-    "Enter the # of steps?",
+    "Enter the # of steps for installation?",
     "Describe the usage of this application",
     "How to test?",
     "List contributors",
@@ -33,25 +32,20 @@ const results=[];
 async function repeatPrompt(response) {
    
     while (count < response.installation){
-    await inquirer.prompt([
-        
+    const answer = await inquirer.prompt([
         {
             type: 'input',
             message: steps[0],
             name: 'step',
         }
     ])
-    count++
-    results.push(String(response.step));
-    
-}
+            count++
+            results.push(answer.step);
+    }
 
     console.log("FSreadme has started")
     console.log(results)
- 
-    writeToFile()  
-
-   
+    writeToFile(response,results)  
     return response.step
 }
 
@@ -74,62 +68,57 @@ inquirer
         {
             type: 'input',
             message: questions[2],
-            name: 'motivation',
+            name: 'description',
         },
         {
             type: 'input',
             message: questions[3],
-            name: 'resolve',
-        },
-        {
-            type: 'input',
-            message: questions[4],
             name: 'process',
         },
         {
             type: 'input',
             message: questions[5],
-            name: 'installation',
-            
-        },
-        {
-            type: 'input',
-            message: questions[6],
             name: 'usage',
         },
        
         {
             type: 'input',
-            message: questions[7],
+            message: questions[6],
             name: 'contributor',
         },
         {
             type: 'input',
-            message: questions[8],
+            message: questions[7],
             name: 'testing',
         },
         
         {
             type: 'input',
-            message: questions[10],
+            message: questions[9],
             name: 'email',
         },
         {
             type: 'input',
-            message: questions[11],
+            message: questions[10],
             name: 'GitHubUser',
         },
         {
             type: 'list',
-            message: questions[9],
+            message: questions[8],
             name: 'license',
             choices: [
                 '![NPM](https://img.shields.io/npm/l/inquirer)',
-               
                 '![Hex.pm](https://img.shields.io/hexpm/l/plug)',
-                '![APM](https://img.shields.io/apm/l/vim-mode)'
+                '![APM](https://img.shields.io/apm/l/vim-mode)',
+                '![CPAN](https://img.shields.io/cpan/l/Config-Augeas)'
             ],
         }, 
+        {
+            type: 'input',
+            message: questions[4],
+            name: 'installation',
+            
+        },
     ])
 
 
@@ -181,7 +170,7 @@ function writeToFile(response, results) {
               
           
               ${response.step}
-             
+              ${results}
              
                      
           ## Usage
@@ -193,8 +182,9 @@ function writeToFile(response, results) {
               ${response.contributor}
           
           ## License
-              
-               ${response.licenses}
+            
+            License Utilized: 
+               ${response.license}
                       
                       
           ## Contribution
