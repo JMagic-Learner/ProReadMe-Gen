@@ -3,7 +3,7 @@
 ![NPM](https://img.shields.io/npm/l/inquirer)
 
 [LIVE DEPLOY](https://JMagic-Learner.github.io/PROREADME-GEN)
-## Description
+# Description
 Hello, my name is Jason Ma. This application is called PROREADME-GEN.
               
 Description:
@@ -14,13 +14,13 @@ We first draft a framework of the questions. We then use inquirer.prompt to then
               
 # Table of Contents 
 If your README is long, add a table of contents to make it easy for users to find what they need.
-- [Installation](##-Installation)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [Credits](#Credits)
-- [License](#license)
-- [Contribution](#contribution)
-- [Test](#test)
-- [Question](#question)
+- [License](#License)
+- [Contribution](#Contribution)
+- [Test](#Test)
+- [Question](#Question)
               
 # Installation
 
