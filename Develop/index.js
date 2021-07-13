@@ -140,7 +140,7 @@ function writeToFile(response, results) {
         fs.writeFile('README-HWDescription.md', 
           
               `
-## ${response.title}
+# ${response.title}
 ${response.license}
 
 [LIVE DEPLOY](https://${response.GitHubUser}.github.io/${response.title})
@@ -153,17 +153,17 @@ ${response.description}
 Coding Process
 ${response.process}
               
-## Table of Contents 
+# Table of Contents 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Installation](##-Installation)
-- [Usage](##-Usage)
-- [Credits](##-Credits)
-- [License](##-license)
-- [Contribution](##-contribution)
-- [Test](##-test)
-- [Question](##-question)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#license)
+- [Contribution](#contribution)
+- [Test](#test)
+- [Question](#question)
               
-## Installation
+# Installation
 
 Link to video demonstration how this application works:
 https://drive.google.com/file/d/13Wi25qLBlX8RQuU2vu-ZwW8qSMlAgd3g/view
@@ -172,24 +172,24 @@ https://drive.google.com/file/d/13Wi25qLBlX8RQuU2vu-ZwW8qSMlAgd3g/view
 ${results}
              
                      
-## Usage
+# Usage
               
 ${response.usage}
                                       
           
-## License
+# License
             
 License Utilized: 
 ${response.license}
                       
                       
-## Contribution
+# Contribution
 ${response.contributor}
               
-## Tests
+# Tests
 ${response.testing}
               
-## Questions
+# Questions
 Github Username: ${response.GitHubUser}
 Github Profile: 
 [${response.GitHubUser}](https://github.com/${response.GitHubUser})
