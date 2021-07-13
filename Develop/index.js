@@ -137,7 +137,7 @@ repeatPrompt(response)
 
 function writeToFile(response, results) {
    
-        fs.writeFile('README-HWDescription.md', 
+        fs.writeFile('README.md', 
           
               `
 # ${response.title}
