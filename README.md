@@ -14,9 +14,9 @@ We first draft a framework of the questions. We then use inquirer.prompt to then
               
 ## Table of Contents 
 If your README is long, add a table of contents to make it easy for users to find what they need.
-- [Installation](#-Installation)
-- [Usage](##-Usage)
-- [Credits](##-Credits)
+- [Installation](##-installation)
+- [Usage](##-usage)
+- [Credits](##-credits)
 - [License](##-license)
 - [Contribution](##-contribution)
 - [Test](##-test)
